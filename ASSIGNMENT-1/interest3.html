@@ -1,0 +1,243 @@
+<html>
+<head>
+<style>
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #333;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover:not(.active) {
+  background-color: orange;
+}
+
+.active {
+  background-color: orange;
+}
+#food{ border-radius: 50%;align:middle;}
+.container {
+  position: relative;
+  text-align: center;
+  color: black;
+  
+}
+.top-left {
+  position: absolute;
+  top: 8px;
+  left: 120px;
+  font-size:30px
+}
+.top-center {
+  position: absolute;
+  top: 15px;
+  left: 540px;
+  font-size:80px;
+  color:orange;
+}
+#line {
+	margin-top: 0px;
+	margin-left: 100px;
+	width: 1300px;
+	height: 5px;
+	background:#EB984E;
+}
+#line2 {
+	margin-bottom:10px;
+	width: 300px;
+	height: 5px;
+	background:orange;
+}
+#movie{ border-radius:20%;}
+
+#lineh
+{
+	margin-top:50px;
+	margin-left:300px;
+	width:5px;
+	height:100px;
+	background:orange;
+	align:left;
+}
+#edu
+{
+	margin-top:0px;
+	margin-left:5px;
+	width:300px;
+	height:100px;
+	background:#ccc;
+}
+
+#linehr
+{
+	margin-top:50px;
+	margin-left:750px;
+	width:5px;
+	height:100px;
+	background:orange;
+	align:right;
+}
+#edur
+{
+	margin-top:-100px;
+	margin-left:5px;
+	width:300px;
+	height:100px;
+	background:#ccc;
+	align:right;
+}
+</style>
+</head>
+<body bgcolor="#ccc">
+
+<ul>
+  <li><a class="active">About me</a></li>
+  <li><a href="#food">Food</a></li>
+  <li><a href="#movie">Movies</a></li>
+  <li><a href="#travels">Travels</a></li>
+    <li><a href="#game">Games</a></li>
+</ul>
+<div class="container">
+  <img src="home.jpg" width="100%" height="370px">
+  
+  
+  <table width="80%" height="600px" align="center">
+<tr><td bgcolor="#333">
+<h1 style="color:white;font-size-adjust25px" align="center">Education</h1>
+<div id="line"></div><br>
+<div id="lineh">
+<div id="edu"> <font style="font-size:25px;margin-left:10px;font-weight:bold">Primary Education</font><br><font style="font-size:20px;margin-left:30px;margin-top:10px">Fedrick School <br><font style="font-size:20px;margin-left:30px">Jan 1997 - Mar 2000</font></div></div>
+
+<div id="linehr">
+<div id="edur"> <font style="font-size:25px;margin-left:10px;font-weight:bold">High School</font><br><font style="font-size:20px;margin-left:30px;margin-top:10px">RedStreet College<br><font style="font-size:20px;margin-left:30px">Jan 2000 - Mar 2005</font></div></div>
+
+<div id="lineh">
+<div id="edu"> <font style="font-size:25px;margin-left:10px;font-weight:bold">Computer Science </font><br><font style="font-size:20px;margin-left:30px;margin-top:10px">Down Street College<br><font style="font-size:20px;margin-left:30px">Jan 2006 - Mar 2008</font></div></div>
+
+<div id="linehr">
+<div id="edur"> <font style="font-size:25px;margin-left:10px;font-weight:bold">Computer Engineering</font><br><font style="font-size:20px;margin-left:30px;margin-top:10px">Charotar University<br><font style="font-size:20px;margin-left:30px">Jan 2009 - Mar 20013</font></div></div>
+
+</td></tr>
+</table>
+  
+  
+  
+<table  width="100%" cellspacing="10px" bgcolor="#222" class="food">
+	<tr>
+		<td  height="100px" colspan="4" bgcolor="#222">
+		<h1 style="font-size:35px;color:white" align="center" >My Favourite Food</h1>
+		<div id="line"></div>
+		</td>
+	</tr>
+	
+	<tr bgcolor="#ccc">
+		<td width="25%" height="400px" bgcolor="#333">
+		<img id="food" src="pizza.jpg"><br>
+			<font face="serif" style="font-size:28px;margin-left:80px;color:#E74C3C">Pizza</font>
+
+		</td>
+		
+		<td width="25%" height="400px" bgcolor="#333">
+		<img id="food" src="buger.jpg"><br>
+			<font face="serif" style="font-size:28px;margin-left:80px; color:#E74C3C">Burger</font>
+		</td>
+		
+		<td width="25%" height="400px" bgcolor="#333" >
+		<img id="food" src="paneer.jpg"><br>
+			<font face="serif" style="font-size:28px;margin-left:80px;color:#E74C3C"">Panner Tikka</font>
+		</td>
+		
+		<td width="25%" height="400px" bgcolor="#333">
+		<img id="food" src="sand.jpg"><br>
+			<font face="serif" style="font-size:28px;margin-left:80px;color:#E74C3C"">Sandwich</font>
+		</td>
+	</tr>
+	
+</table>
+<table width="100%" height="370px" cellspacing="20px" bgcolor="#222" class="travels">
+	<tr>
+		<td width="25%">
+		<h1 style="color:orange;letter-spacing:2px;word-spacing:30px;line-height:20px;">Travels</h1>
+		<div id="line2"></div>
+		<font style="color:orange;font-size:18px;letter-spacing:2px;word-spacing:3px;line-height:25px;">Reasons for traveling include recreation,tourism or vacationing, research travel, the gathering 
+		of information, visiting people, volunteer travel for chary, migration to begin life somewhere else,
+		religious pilgrimages and mission trips, business travel, trade, commuting, and other reasons, such as 
+		to obtain health care or waging or fleeing war or for the enjoyment of traveling. </font>
+		</td>
+		
+		
+		<td>
+		<div class="container">
+  <img src="relex.jpg" width="350px" height="370px">
+  <div class="top-left">Relaxation</div>
+
+
+		</td>
+		
+		<td>
+		<div class="container">
+  <img src="solo.jpg" width="350px" height="370px">
+  <div class="top-left">Solo Tour</div>
+		</td>
+		
+		<td>
+		<div class="container">
+  <img src="adven.jpg" width="350px" height="370px">
+  <div class="top-left">Adventure</div>
+		</td>
+	</tr>
+</table>
+
+<h1 style="color:#333;font-size:45px" align="center" class="Movies">Favourite Movies</h1>
+<div id="line"></div><br><br>
+
+<table  width="100%" height="600px" bgcolor="#333" cellpadding="10px">
+<tr><td><img id="movie" src="dark1.jpg" width="100%" height="100%"></td> <td rowspan="2" width="33%"> <h2 style="color:orange;font-size:20px;margin-left:30px;
+margin-right:30px;align:justify;letter-spacing:3px;word-spacing:3px;line-height:30px;">Films are cultural artifacts created by specific cultures. 
+They reflect those cultures, and, inturn,
+ affect them. Film is considered to be an important art form, a source of popular entertainment, and a powerful medium for educatings
+ or indoctrinating citizens. The visual basis of film gives it a universal power of communication. Some films have become popular 
+ worldwide attractions through the use of dubbing or subtitles to translate the dialog into other languages.</h2>
+ </td> <td><img id="movie" src="iron.jpg" width="100%" height="100%"></td>  </tr>
+<tr> <td><img id="movie" src="dark2.jpg" width="100%" height="100%"></td> 
+<td><img id="movie" src="thor.jpg" width="100%" height="100%"></td>  </tr>
+</table>
+<br>
+<br>
+
+<table  width="80%" align="center" height="700px" bgcolor="#333" cellpadding="10px" id="game">
+<tr>
+	<td colspan="3"><h1 style="color:white;font-size-adjust25px" align="center">Favourite Games</h1>
+<div id="line"></div><br><br></td>
+</tr>
+<tr>
+	<td width="250px"><img src="pubg.jpg" width="100%" height="300px" style="margin-top:40px"><h3 style="color:orange;font-size:15px;margin-left:10px;
+margin-right:10px;align:justify;letter-spacing:3px;word-spacing:3px;line-height:20px;" >PlayerUnknown's Battlegrounds, better known as PUBG, is a multiplayer battle royale
+	game in which players drop onto an island and fight to be the last one left standing. There are currently three maps: Erangel,
+	Sanhok, and Miramar. You can choose whether to play solo, duo, or with a squad of up to four players.</h3></td>
+	<td width="250px"><img src="forza.jpg" width="100%" height="300px" style="margin-top:20px"><h3 style="color:orange;font-size:15px;margin-left:10px;
+margin-right:10px;align:justify;letter-spacing:3px;word-spacing:3px;line-height:20px;" >Call of Duty is a first-person shooter video game franchise published by 
+Activision. Starting out in 2003, it first focused on games set in World War II, but over time, the series has seen games set in modern times, the midst of the
+ Cold War, futuristic worlds, and outer space.</h3></td>
+	<td width="250px"><img src="cod.jpg" width="100%" height="300px" style="margin-top:23px"><h3 style="color:orange;font-size:15px;margin-left:10px;
+margin-right:10px;align:justify;letter-spacing:3px;word-spacing:3px;line-height:20px;" >Forza Horizon 3 is a 2016 racing video game developed by Playground Games 
+and published by Microsoft Studios for Xbox One and Microsoft Windows. The game features cross-platform play between the two platforms. As with previous Horizon games.</h3></td>
+</tr>
+</table><br></br>
+
+
+</body>
+</html>
